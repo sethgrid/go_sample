@@ -7,12 +7,12 @@ To get started, you must set your GOPATH. This command sets the GOPATH and displ
 `source set_go_path.sh`
 
 To run the test:
-`cd src/helloworld && go test`
+`go test helloworld`
 
 To build the binary:
-`cd src/helloworld && go build`
+`go install helloworld`
 
 This puts the binary in the bin directory. 
 
 Run the binary:
-`cd bin && ./helloworld`
+`./bin/helloworld`
